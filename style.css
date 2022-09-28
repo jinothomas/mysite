@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Kozuka Gothic Pro', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar{
+	background-color: #511845;
+	color: white !important;
+	position: fixed;
+	width: 100%;
+	 z-index: 2;
+}
+
+.nav-item a{
+	color: white !important;
+}
+
+.nav-item a:hover{
+	color: #C70039 !important;
+}
+
+.nav-item{
+	padding-left: 2px;
+}
+
+.navbar-brand{
+	color: #CA4E79 !important;
+	padding-left: 100px;
+	font-weight: 100;
+}
+
+#navbar button{
+	color: white !important;
+}
+
+/* banner */
+
+#banner-container{
+	background: url('images/pixels.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #511845;
+	color: white !important;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	right:0;
+
+}
+
+#banner-container background {
+
+}
+
+#banner-row img{
+	max-width: 70%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#banner-row h3, p{
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: center;
+	font-weight: 300;
+}
+
+#banner h2 {
+	padding-left: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: 200;
+	color: #C70039;
+	font-size: 60px;
+}
+
+#banner-row a{
+	background-color: white !important;
+	color: black !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+
+}
+#banner-col{
+	padding-left: 20px;
+}
+/* service */
+#service{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#service h1{
+	padding-bottom: 70px;
+	font-weight: 300;
+}
+
+/* about */
+
+#about{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#about h1{
+	padding-bottom: 70px;
+	font-weight: 300;
+}
+
+#about-col ul{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#about-col ul li{
+	padding-top: 15px;
+
+}
+
+/* product */
+
+#product{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#product h1{
+	padding-bottom: 70px;
+	font-weight: 300;
+}
+
+#product-col2 ul{
+	padding-top: 90px;
+}
+
+#product-col2 ul li{
+	padding-top: 15px;
+}
+
+/* social */
+
+#social{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#social h1{
+	padding-bottom: 70px;
+	font-weight: 300;
+}
+
+#social-row{
+	flex-direction: row;
+}
+
+/* footer */
+
+.mb-3{
+padding-top: 10px;
+}
+
+.overlay-container {
+  position: relative;
+  width: 50%;
+}
+
+.image-overlay {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 1;
+}
+
+.text-overlay {
+  color: white;
+  font-size: 20px;
+	font-type
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	overflow: hidden;
+	 z-index: -1;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	 z-index: -1;
+}
+
+/* media */
+@media only screen and (max-width: 98px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+	.hover01 figure img {
+		position: relative;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	#banner-row img{
+		padding-top: 20px;
+	}
+	.hover01 figure img {
+		position: relative;
+	}
+
+.social-col{
+	width: 33%;
+}
+}
