@@ -260,6 +260,10 @@ padding-top: 10px;
 	.hover01 figure img {
 		position: relative;
 	}
+
+	.social-col{
+		width: 20%;
+	}
 }
 
 @media only screen and (max-width: 768px){
@@ -271,6 +275,6 @@ padding-top: 10px;
 	}
 
 .social-col{
-	width: 33%;
+	width: 20%;
 }
 }
